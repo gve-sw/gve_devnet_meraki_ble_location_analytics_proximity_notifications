@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "clientMac": "e6:ae:f1:79:8f:01",
+        "rssi": -57
+    },
+    {
+        "id": 2,
+        "clientMac": "e6:ae:f1:79:8f:02",
+        "rssi": -60
+    },
+    {
+        "id": 3,
+        "clientMac": "e6:ae:f1:79:8f:03",
+        "rssi": -65
+    },
+    {
+        "id": 4,
+        "clientMac": "e6:ae:f1:79:8f:04",
+        "rssi": -70
+    },
+    {
+        "id": 5,
+        "clientMac": "e6:ae:f1:79:8f:05",
+        "rssi": -75
+    },
+    {
+        "id": 6,
+        "clientMac": "e6:ae:f1:79:8f:06",
+        "rssi": -80
+    },
+    {
+        "id": 7,
+        "clientMac": "e6:ae:f1:79:8f:07",
+        "rssi": -85
+    },
+    {
+        "id": 8,
+        "clientMac": "e6:ae:f1:79:8f:08",
+        "rssi": -90
+    },
+    {
+        "id": 9,
+        "clientMac": "e6:ae:f1:79:8f:09",
+        "rssi": -95
+    },
+    {
+        "id": 10,
+        "clientMac": "e6:ae:f1:79:8f:10",
+        "rssi": -100
+    }
+]

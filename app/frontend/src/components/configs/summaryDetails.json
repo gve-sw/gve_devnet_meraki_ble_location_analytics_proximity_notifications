@@ -1,0 +1,39 @@
+{
+  "mainSummary": "The repository 'ble_meraki_coupon_pusher' by Rey-Diaz is a project that integrates various technologies to create a system for pushing coupons based on Bluetooth Low Energy (BLE) signals detected by Meraki devices. This repository represents a comprehensive solution for integrating BLE technology with web applications, showcasing the use of modern web frameworks and real-time data processing.",
+  "languages": {
+    "JavaScript": 47.83,
+    "Python": 2.17,
+    "HTML": 2.17,
+    "CSS": 8.70,
+    "Other": 34.78
+  },
+  "languageLinks": {
+    "JavaScript": "https://www.javascript.com/",
+    "Python": "https://www.python.org/",
+    "HTML": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "CSS": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  },
+  "githubLink": "https://github.com/your-repository",
+  "fileStructure": "src/, components/, utils/, tests/",
+  "RepositorySummary": {
+    "Overview": {
+      "Purpose": "Designed to detect BLE signals using Meraki devices and trigger actions such as sending coupons or notifications.",
+      "TechnologiesUsed": "Uses Python for backend and React with Vite for frontend."
+    },
+    "Backend": {
+      "MainComponents": "FastAPI application handling Meraki scanning data.",
+      "EnvironmentVariables": "Uses environment variables for Meraki API keys and network IDs.",
+      "DataProcessing": "Processes BLE data from Meraki devices."
+    },
+    "Frontend": {
+      "Structure": "React components with routes for device tables and notifications.",
+      "UserInterface": "Components for device data, notifications, and navigation.",
+      "Styling": "CSS for styling, with a modular approach."
+    },
+    "AdditionalFiles": {
+      "Documentation": "Includes README.md, CODE_OF_CONDUCT.md, and CONTRIBUTING.md.",
+      "Requirements": "Lists Python dependencies in requirements.txt."
+    },
+    "SetupAndInstallation": "Setup instructions are located in the README."
+  }
+}

@@ -1,0 +1,142 @@
+/* Header Styles */
+.header {
+    --cui-header-background: #f4f4f4; /* Background color of the header */
+    --cui-header-border-bottom: 1px solid #ddd; /* Border bottom */
+    --cui-header-logo-font-size: 24px; /* Logo font size */
+    --cui-header-padding: 0 15px; /* Header padding */
+    --cui-header-title-font-size: 20px; /* Title font size */
+    --cui-header-title-font-weight: 200; /* Title font weight */
+    --cui-header-toggle-font-size: 20px; /* Toggle font size */
+    --cui-header-item-spacing: 10px; /* Spacing between header items */
+    --cui-header-zindex: 1000; /* Z-index for header */
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--cui-header-background);
+    border-bottom: var(--cui-header-border-bottom);
+    height: 60px; /* Adjust as needed */
+    z-index: var(--cui-header-zindex);
+}
+
+
+/* Ensure the header-panels take full width */
+.header-panels {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-panel {
+    display: flex;
+    align-items: center;
+}
+
+.header-panel--right {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* This should push the panel to the right*/
+    padding-right: 15px;
+}
+
+
+/* Cisco Logo - Updated for img tag */
+.header__logo img {
+    height: 30px; /* Adjust as needed */
+    padding-left: 15px; /* Padding around the logo */
+
+}
+
+
+/* Title Next to Logo */
+.header__title {
+    margin-left: var(--cui-header-item-spacing);
+    font-size: var(--cui-header-title-font-size);
+    font-weight: var(--cui-header-title-font-weight);
+    color: #333; /* Title color */
+}
+
+/* Navigation Links */
+.header-item {
+    color: #333; /* Link color */
+    text-decoration: none;
+    margin-left: var(--cui-header-item-spacing);
+    font-size: 16px; /* Adjust as needed */
+}
+
+.header-item:hover {
+    color: #005073; /* Hover color */
+}
+
+/* Icons for Home and Logout (if using text, adjust as needed) */
+.icon-home::before {
+    content: '🏠'; /* Replace with actual icon if available */
+}
+
+/* Footer Styles */
+.footer {
+    display: grid; /* Set the footer to use grid layout */
+    grid-template-rows: auto auto; /* Two rows, each taking up the space it needs */
+    justify-content: center; /* Center the grid items horizontally */
+    align-items: center; /* Align the grid items vertically */
+    text-align: center; /* Centers content in the footer */
+    gap: 10px; /* Optional: Adds space between the logo and the links */
+}
+
+.footer__logo {
+    grid-row: 1; /* Places the logo in the first row */
+    margin-bottom: 0px; /* Keeps your existing margin */
+}
+
+.footer__logo img {
+    width: 50%; /* Makes the image responsive within its container */
+    max-width: 100%; /* Ensures the image does not exceed its container's width */
+}
+
+.footer__links {
+    grid-row: 2; /* Places the links in the second row */
+    /* Add any additional styling for links here */
+}
+
+.list--inline {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list--inline li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.list--inline li:last-child {
+    margin-right: 0;
+}
+
+/* Add responsive adjustments if needed */
+@media (max-width: 600px) {
+    .footer {
+        grid-template-rows: 1fr 1fr; /* Stack the logo and links in two rows */
+    }
+
+    .footer__logo, .footer__links {
+        grid-row: auto; /* Both occupy their respective rows */
+    }
+
+    .list--inline {
+        flex-direction: column; /* Stack the links vertically */
+    }
+
+    .list--inline li {
+        margin-bottom: 10px; /* Adds space between stacked links */
+    }
+
+    .list--inline li:last-child {
+        margin-bottom: 0;
+    }
+}

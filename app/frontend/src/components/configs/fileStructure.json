@@ -1,0 +1,307 @@
+{
+  "id": "root",
+  "name": "BLE_MERAKI_COUPON_PUSHER",
+  "children": [
+    {
+      "id": "vscode",
+      "name": ".vscode",
+      "children": []
+    },
+    {
+      "id": "backend",
+      "name": "backend",
+      "children": [
+        {
+          "id": "pycache",
+          "name": "__pycache__",
+          "children": []
+        },
+        {
+          "id": "env",
+          "name": ".env",
+          "children": []
+        },
+        {
+          "id": "meraki_api_log",
+          "name": "meraki_api_log.log",
+          "children": []
+        },
+        {
+          "id": "server_py",
+          "name": "server.py",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "name": "frontend",
+      "children": [
+        {
+          "id": "node_modules",
+          "name": "node_modules",
+          "children": []
+        },
+        {
+          "id": "public",
+          "name": "public",
+          "children": [
+            {
+              "id": "images",
+              "name": "images",
+              "children": [
+                {
+                  "id": "vite_svg",
+                  "name": "vite.svg",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "src",
+          "name": "src",
+          "children": [
+            {
+              "id": "assets",
+              "name": "assets",
+              "children": [
+                {
+                  "id": "cisco_logo",
+                  "name": "Cisco_Logo_no_TM_Sky_Blue-RGB.png",
+                  "children": []
+                },
+                {
+                  "id": "duo_logo",
+                  "name": "duo_logo.png",
+                  "children": []
+                },
+                {
+                  "id": "logo_long_blue",
+                  "name": "logo_long_blue.png",
+                  "children": []
+                },
+                {
+                  "id": "react_svg",
+                  "name": "react.svg",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "components",
+              "name": "components",
+              "children": [
+                {
+                  "id": "configs",
+                  "name": "configs",
+                  "children": [
+                    {
+                      "id": "fileStructure_json",
+                      "name": "fileStructure.json",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "core",
+                  "name": "core",
+                  "children": [
+                    {
+                      "id": "Footer_jsx",
+                      "name": "Footer.jsx",
+                      "children": []
+                    },
+                    {
+                      "id": "NavBar_jsx",
+                      "name": "NavBar.jsx",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "layout",
+                  "name": "layout",
+                  "children": [
+                    {
+                      "id": "layout_css",
+                      "name": "layout.css",
+                      "children": []
+                    },
+                    {
+                      "id": "layout_jsx",
+                      "name": "layout.jsx",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "notifications",
+                  "name": "notifications",
+                  "children": [
+                    {
+                      "id": "UserNotification_jsx",
+                      "name": "UserNotification.jsx",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "pages",
+                  "name": "pages",
+                  "children": [
+                    {
+                      "id": "home_jsx",
+                      "name": "home.jsx",
+                      "children": []
+                    },
+                    {
+                      "id": "notificationpage_jsx",
+                      "name": "notificationpage.jsx",
+                      "children": []
+                    },
+                    {
+                      "id": "tablepage_jsx",
+                      "name": "tablepage.jsx",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "tables",
+                  "name": "tables",
+                  "children": [
+                    {
+                      "id": "DeviceTable_jsx",
+                      "name": "DeviceTable.jsx",
+                      "children": []
+                    },
+                    {
+                      "id": "treeview",
+                      "name": "treeview",
+                      "children": [
+                        {
+                          "id": "CustomizedTreeView_jsx",
+                          "name": "CustomizedTreeView.jsx",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "styles",
+                  "name": "styles",
+                  "children": [
+                    {
+                      "id": "App_css",
+                      "name": "App.css",
+                      "children": []
+                    },
+                    {
+                      "id": "App_jsx",
+                      "name": "App.jsx",
+                      "children": []
+                    },
+                    {
+                      "id": "index_css",
+                      "name": "index.css",
+                      "children": []
+                    },
+                    {
+                      "id": "main_jsx",
+                      "name": "main.jsx",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "eslint",
+              "name": ".eslintrc.js",
+              "children": []
+            },
+            {
+              "id": "index_html",
+              "name": "index.html",
+              "children": []
+            },
+            {
+              "id": "contributing_md",
+              "name": "CONTRIBUTING.md",
+              "children": []
+            },
+            {
+              "id": "package_lock_json",
+              "name": "package-lock.json",
+              "children": []
+            },
+            {
+              "id": "package_json",
+              "name": "package.json",
+              "children": []
+            },
+            {
+              "id": "README_md",
+              "name": "README.md",
+              "children": []
+            },
+            {
+              "id": "vite_config_js",
+              "name": "vite.config.js",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "name": "IMAGES",
+          "children": []
+        },
+        {
+          "id": "internaldocs",
+          "name": "INTERNALDOCS",
+          "children": [
+            {
+              "id": "gve_devnet",
+              "name": "GVE_Devnet_Meraki_Meraki_BLE_Coupon_Pusher",
+              "children": []
+            },
+            {
+              "id": "header_md",
+              "name": "HEADER.md",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "gitattributes",
+          "name": ".gitattributes",
+          "children": []
+        },
+        {
+          "id": "gitignore",
+          "name": ".gitignore",
+          "children": []
+        },
+        {
+          "id": "code_of_conduct_md",
+          "name": "CODE_OF_CONDUCT.md",
+          "children": []
+        },
+        {
+          "id": "readme_md",
+          "name": "README.md",
+          "children": []
+        },
+        {
+          "id": "requirements_txt",
+          "name": "requirements.txt",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
